@@ -1169,3 +1169,80 @@ Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2020-03-19 10:56:17 -0400
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 127.0.0.1 at 2020-03-19 10:56:17 -0400
+
+
+Started GET "/" for ::1 at 2020-03-19 12:52:08 -0400
+Processing by PagesController#home as HTML
+  [1m[36mPlan Load (0.1ms)[0m  [1mSELECT  "plans".* FROM "plans" WHERE "plans"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPlan Load (0.1ms)[0m  SELECT  "plans".* FROM "plans" WHERE "plans"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pages/home.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 493ms (Views: 458.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/custom.css?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/pages.css?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/users.css?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/pages.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2020-03-19 12:52:09 -0400
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for ::1 at 2020-03-19 12:52:09 -0400
