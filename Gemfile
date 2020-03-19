@@ -12,7 +12,7 @@ source 'https://rubygems.org'
 
 #Use postgresql as the database for production
 group :production do
-    gem 'pg', '~> 0.16'
+    gem 'pg', '~> 0.15'
     gem 'rails_12factor'
 end
 
